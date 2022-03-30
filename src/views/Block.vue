@@ -1,13 +1,19 @@
 <template>
   <div class="home flex flex-col m-10 mt-0">
     <div>
-      <h2 class="text-2xl font-bold mb-2">Transaction Pool</h2>
+      <h2 class="text-2xl font-bold mb-2">Block</h2>
       <div class="flex justify-center">
         <button
           class="bg-blue-500 text-white my-2 px-5 py-2 rounded"
           @click="updateBooks"
         >
           Update
+        </button>
+        <button
+          class="bg-yellow-500 text-white my-2 ml-2 px-5 py-2 rounded"
+          @click="$router.go(-1)"
+        >
+          Back
         </button>
       </div>
     </div>

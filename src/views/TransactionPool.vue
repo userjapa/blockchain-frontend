@@ -56,6 +56,8 @@ export default class BlocksView extends Vue {
   mine () {
     this.mineTransactions()
       .then(() => {
+        alert('Mined transactions')
+
         this.$router.push('/blocks')
       })
       .catch(error => alert(error.message))

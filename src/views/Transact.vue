@@ -68,6 +68,8 @@ export default class WalletView extends Vue {
         amount: this.amount
       })
         .then(() => {
+          alert('Transaction created')
+
           this.recipient = ''
           this.amount    = 1
         })
