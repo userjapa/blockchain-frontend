@@ -1,7 +1,7 @@
 <template>
   <div class="home flex flex-col m-10 mt-0">
     <div>
-      <h2 class="text-2xl font-bold mb-2">Wallet</h2>
+      <h2 class="text-2xl font-bold mb-2">Transact</h2>
     </div>
     <form
       ref="transactForm"
